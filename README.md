@@ -13,3 +13,10 @@ Landscape surfaces are losslessly gzip-compressed; vegetation is sampled one in 
 Selecting a model downloads its additional data. Physics playback uses bounded caches and two-frame lookahead rather than preloading the whole publication. This is not a total memory limit. Browser validation uses mobile viewport emulation; physical iPad Safari performance remains to be tested.
 
 Published mobile website: https://canopy-world.github.io/canopy-mobile/
+
+## Publishing
+
+GitHub Pages is configured for GitHub Actions. Pushing `main` publishes the
+checked-in `dist/` tree through `.github/workflows/pages.yml`. The `github-pages`
+environment permits `main`. The earlier `gh-pages` branch is retained as a
+historical publication snapshot; it is no longer the deployment source.
