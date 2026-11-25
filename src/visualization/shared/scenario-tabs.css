@@ -1,0 +1,7 @@
+.scenario-tabs{display:flex;align-items:center;gap:4px;min-width:0;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin}
+.scenario-tab{display:block;flex:0 0 auto;padding:9px 14px;border:1px solid transparent;border-radius:7px;color:#bed0d8;font:600 13px/1.4 system-ui,sans-serif;letter-spacing:normal;text-decoration:none;white-space:nowrap}
+.scenario-tab:hover{background:#ffffff12;color:#f3fbff}
+.scenario-tab[aria-current="page"]{background:#244b46;border-color:#569386;color:#eafff8}
+.scenario-tab[aria-disabled="true"]{opacity:.5;cursor:default}
+.scenario-tab:focus-visible{outline:2px solid #91e3ce;outline-offset:-2px}
+@media(max-width:700px){.scenario-tab{padding:8px 11px;font-size:12px}}

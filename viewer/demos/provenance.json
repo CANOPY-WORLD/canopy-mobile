@@ -1,0 +1,76 @@
+{
+  "model": "Cosmos3-Super",
+  "videos": [
+    {
+      "file": "video-generation.mp4",
+      "bytes": 2253553,
+      "sha256": "f72338510f3c40cd31ef576b228dadbe6bf6a15d2539e81f5f50887f8e1c90a4",
+      "duration_seconds": 15.13
+    },
+    {
+      "file": "text-modification.mp4",
+      "bytes": 846251,
+      "sha256": "398f8113e3c034e3b7a8b9f8c2114b827d0f02b3b6342f6fa3fe11128756957f",
+      "duration_seconds": 11.63
+    }
+  ],
+  "video_generation": "Retained November 20, 2026 Borg job 217448 renders. Canopy edge video and generated RGB first frame conditioning. Historical comparison recording. Introductory card removed; original comparison timing retained.",
+  "text_modification": "November 25, 2026 Borg job 220346 native reasoner outputs. Two verified edits and Undo, recorded in one scene and accelerated 1.35x; preparation/inference wait omitted. Not live inference. Geometry and facade colour only; physics not recalculated.",
+  "text_examples": {
+    "model": "Cosmos3-Super",
+    "job": 220346,
+    "examples": [
+      {
+        "model": "Cosmos3-Super",
+        "provider": "NVIDIA native cosmos-framework reasoner",
+        "job": 220346,
+        "case": "01_low_cream",
+        "checkpoint_revision": "e0262be9d8f7586bc24c069a2aed2b665bdff266",
+        "code": "scene.scale_height(\"faculty_building\", 0.7)\nscene.set_facade(\"faculty_building\", \"#FFF5E6\")",
+        "response_sha256": "990cd42029d6eec8266a3423f5f7d769379b82a9ddfcc0f23641023298069947",
+        "input_sha256": "75c89e5485017474cf36ad307de350ffe455240692c5e0994fdef68fe1980512",
+        "status": "success",
+        "transport": "retained actual batch result; not live chat",
+        "compile_validated": true,
+        "patch": {
+          "target": "faculty_building",
+          "vertical_scale": 0.7,
+          "material_srgb": "#FFF5E6",
+          "anchor": "body_base",
+          "preserve_horizontal_coordinates": true,
+          "preserve_neighbours": true
+        }
+      },
+      {
+        "model": "Cosmos3-Super",
+        "provider": "NVIDIA native cosmos-framework reasoner",
+        "job": 220346,
+        "case": "02_tall_blue",
+        "checkpoint_revision": "e0262be9d8f7586bc24c069a2aed2b665bdff266",
+        "code": "scene.scale_height(\"faculty_building\", 1.25)\nscene.set_facade(\"faculty_building\", \"#4A6B8A\")",
+        "response_sha256": "6255eea97bd16e56fbb09b4c6b406e35e98d8a1167302ab60c1c02ba998a596c",
+        "input_sha256": "14ee55818e64da1b7a8383410ab3c3513737fdee5476ac016fb6ef8ef96a019a",
+        "status": "success",
+        "transport": "retained actual batch result; not live chat",
+        "compile_validated": true,
+        "patch": {
+          "target": "faculty_building",
+          "vertical_scale": 1.25,
+          "material_srgb": "#4A6B8A",
+          "anchor": "body_base",
+          "preserve_horizontal_coordinates": true,
+          "preserve_neighbours": true
+        }
+      }
+    ],
+    "rejected_attempts": [
+      {
+        "case": "03_original_terracotta",
+        "code": "scene.scale_height(\"faculty_building\", 0.8)\nscene.set_facade(\"faculty_building\", \"#C16A4B\")",
+        "expected_absolute_scale": 1.0,
+        "returned_absolute_scale": 0.8,
+        "reason": "Valid syntax, but incorrect interpretation of original-height restoration. Not applied or included in video."
+      }
+    ]
+  }
+}

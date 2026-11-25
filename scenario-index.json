@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "canopy.scenario-index",
+  "default": "imperial_corridor_8km",
+  "scenarios": [
+    {
+      "id": "imperial_corridor_8km",
+      "title": "Imperial Corridor 8 km · South Kensington + White City",
+      "viewer_url": "viewer/3d/?scene=imperial_corridor_8km",
+      "download_manifest": "download-manifests/imperial_corridor_8km.json",
+      "snapshot": "london-complete-tube53-20261125",
+      "bytes": 298269504,
+      "files": 1494,
+      "repository": "https://github.com/CANOPY-WORLD/canopy-scenario-imperial-corridor-8km",
+      "revision": "1ef461432127e66934c100cab1af7d9d14cbc068",
+      "data_website": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/",
+      "manifest_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-complete-tube53-20261125/manifest.json",
+      "manifest_sha256": "a51b797d186edc975e1f68ab46414687fbf7f4c4dea873575ec3e0d1cb535e57"
+    }
+  ]
+}

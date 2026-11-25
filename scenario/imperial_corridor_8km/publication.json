@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "canopy.publication-reference",
+  "scenario_id": "imperial_corridor_8km",
+  "repository": "https://github.com/CANOPY-WORLD/canopy-scenario-imperial-corridor-8km",
+  "revision": "1ef461432127e66934c100cab1af7d9d14cbc068",
+  "website": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/",
+  "base_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-complete-tube53-20261125/",
+  "snapshot": "london-complete-tube53-20261125",
+  "manifest": {
+    "path": "data/manifest.json",
+    "sha256": "a51b797d186edc975e1f68ab46414687fbf7f4c4dea873575ec3e0d1cb535e57"
+  }
+}
