@@ -18,6 +18,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Verify published entrypoints
+        run: |
+          test -s dist/index.html
+          test -s dist/viewer/3d/index.html
+          test -s dist/asset-router.js
+          python3 -m json.tool dist/asset-sources.json > /dev/null
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
