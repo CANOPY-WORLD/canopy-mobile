@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "resources_url": "https://acse-yl222.github.io/urban-world-model-models/",
+  "scenes": [
+    {
+      "scene_id": "imperial_corridor_8km",
+      "title": "Imperial Corridor 8 km",
+      "tag": "Urban environment",
+      "description": "Explore an 8 km × 8 km area of London spanning South Kensington and White City, with city geometry, recorded traffic, UAV flights and urban physics.",
+      "viewer_url": "viewer/3d/?scene=imperial_corridor_8km",
+      "resource_ids": []
+    }
+  ],
+  "published_site": "https://canopy-world.github.io/canopy/"
+}

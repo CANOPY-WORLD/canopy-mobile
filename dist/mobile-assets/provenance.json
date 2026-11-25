@@ -1,0 +1,207 @@
+{
+  "description": "Lossless gzip of retained flat surfaces; vegetation sampled one in eight for mobile display; placements retained. No scientific field modified.",
+  "source_records": [
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/manifest.json",
+      "source_sha256": "23b0d681c1ce399408f123ecd4aa66137ab38eaca0c45050b4aed6aa57652339",
+      "source_bytes": 5430
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/source/scene-meta.json",
+      "source_sha256": "710aebe8a1d304f5871d54e8dd81f73a7086be0cddd839ab340c2a4aeec5c0b7",
+      "source_bytes": 13796267
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/00-wetland.f32",
+      "source_sha256": "b986ba0cebc5f0eae87632fab280297de3ac36c6fbe4ce8d3580b78c0e91ef1c",
+      "source_bytes": 50364
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/01-track.f32",
+      "source_sha256": "9b8af3a8e17df92a01281fc9779c83966ba9c32e9b2f56865bf8f96b61fadd31",
+      "source_bytes": 57924
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/02-sand.f32",
+      "source_sha256": "2557a5db6be98e9ae13a7055ca33634aecb49995872833f1c0046296758b6118",
+      "source_bytes": 35676
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/03-railway.f32",
+      "source_sha256": "60a64915f3508e5441074e0ddfa7e488b9740b00bd631285727f6beeae4871ed",
+      "source_bytes": 223560
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/04-plaza.f32",
+      "source_sha256": "4d200909614ce78c1475514b6d01e0846924dfce779af4450850292c131e7b29",
+      "source_bytes": 245304
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/05-playground.f32",
+      "source_sha256": "49aadf71ea674af2ba9334fcea23fcf4227f692b2a272c1b09a3019e67b5f7e9",
+      "source_bytes": 127692
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/06-pitch.f32",
+      "source_sha256": "954b0de3e8c707a6c5b953552ef9cafabcd54e404150deebeef31e509af79c90",
+      "source_bytes": 102168
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/07-grave_yard.f32",
+      "source_sha256": "0cd0a581c9717f53bcb7e619e59d3a36d130a94b3e138a41f16d698df2387dea",
+      "source_bytes": 11052
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/08-cemetery.f32",
+      "source_sha256": "8ccb67e67e2cb6b490cfac4d45eb573a77c315565c26a4ef8ea48c599b930688",
+      "source_bytes": 139536
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/09-bare.f32",
+      "source_sha256": "79289f862a3d24a3564e7054c1449ddf32f61f774a9fbdbb37eb8aa58d73e6a1",
+      "source_bytes": 146772
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/10-allotments.f32",
+      "source_sha256": "b0df6cd62e063e0fce780ea29d22b11acdf3c9687e2522c3ebf34a6e2e1b78a1",
+      "source_bytes": 17820
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/11-grass.f32",
+      "source_sha256": "e5895f7d25c4904bc3fe8cdaeacba44ddad8a4d63dc4ceb31eee7bde943cd6a1",
+      "source_bytes": 808920
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/12-scrub.f32",
+      "source_sha256": "392cb274708f238396905b7ffa455e0f7c4c336efdda9cf646668cb564a596ba",
+      "source_bytes": 66492
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/13-wood.f32",
+      "source_sha256": "5eadceba7a48db35432750fac790f13db95308c62b8428e4825db036438385f0",
+      "source_bytes": 630144
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/14-park.f32",
+      "source_sha256": "72e904a55880ac56bc0a9d88eb3fac1061a48b3bee9ee8f12e28c3d22fed1f32",
+      "source_bytes": 2312856
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/15-water.f32",
+      "source_sha256": "b487be3148cd9684da039ab4a53efda83a08f1e2603e798bb72509d1bfdf54a6",
+      "source_bytes": 281376
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/16-walk-cycle-paths.f32",
+      "source_sha256": "f729e3b2349bf5ad835c76916312df61bbfd579b8a59494803f0af8f55056352",
+      "source_bytes": 7872840
+    },
+    {
+      "source_url": "https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/snapshots/london-compact-20261122/context/vector_landscape/17-unclassified-base.f32",
+      "source_sha256": "f371a9fdb8a76951c3e12f045b8a7882819c1fddd6ad24c98a75613e9d1e9c7c",
+      "source_bytes": 72
+    }
+  ],
+  "files": [
+    {
+      "path": "landscape.json",
+      "bytes": 4429,
+      "sha256": "58ff707c900ae012c80e387c05a9306728463036541739d22be77c866e2b599d"
+    },
+    {
+      "path": "surface-06.f32.gz",
+      "bytes": 32983,
+      "sha256": "f4664f03fde1972aef177ea5da719959c271ddb0ddc4d0c6e3b4f8c5c93dc2f8"
+    },
+    {
+      "path": "surface-13.f32.gz",
+      "bytes": 176928,
+      "sha256": "31f699d7dae7349a0371c673c2dbf228676a73b32130b2cbd92de18c2c3b387b"
+    },
+    {
+      "path": "surface-07.f32.gz",
+      "bytes": 3283,
+      "sha256": "dc7d84f7ca5dd302b6a497afe5de3ed93dc3f27b1a456ef4d8ddc7a4af4f4b2e"
+    },
+    {
+      "path": "surface-11.f32.gz",
+      "bytes": 215482,
+      "sha256": "fac9cc437134e9ae0b1ae0e15ad864d38e9d9e5cd93f133d3cfa039bc0022bea"
+    },
+    {
+      "path": "surface-09.f32.gz",
+      "bytes": 39169,
+      "sha256": "f66529e43d437e03f7fbc8d02476e9424bc20c7f11f319602c1072cc43cf2dda"
+    },
+    {
+      "path": "surface-14.f32.gz",
+      "bytes": 660677,
+      "sha256": "1a5c67c2ec2b1a92b446241571128234cdf938fbdcc101677b7341a88cfdd772"
+    },
+    {
+      "path": "surface-12.f32.gz",
+      "bytes": 18084,
+      "sha256": "95d7b59cafc745025fa5f7d7ab970ab0cb18e2eb47a146085737d4ac994a3a54"
+    },
+    {
+      "path": "surface-16.f32.gz",
+      "bytes": 2232035,
+      "sha256": "9db844ae315f18bcce93f0c8ce9d6a29c56aa8e3a21244bd3c2c87f848bcbb70"
+    },
+    {
+      "path": "surface-05.f32.gz",
+      "bytes": 35644,
+      "sha256": "c8cdc2401b9bcedf4b32cd6dd05097015e72443ed94a2c9b5a3f56e189d31ad3"
+    },
+    {
+      "path": "surface-17.f32.gz",
+      "bytes": 44,
+      "sha256": "0bf592b7be4890491b4587e0ff2df89ed1f4b5409203f041b9cbd84a4b7b09a0"
+    },
+    {
+      "path": "surface-10.f32.gz",
+      "bytes": 5216,
+      "sha256": "d3b4c13722369d1cda5a2e397d2d30ea6a40b0b28fee1b49e4b71c54c03b3449"
+    },
+    {
+      "path": "surface-08.f32.gz",
+      "bytes": 39420,
+      "sha256": "ccc59adff1711092f2fed41283e51cec5fcf5f323454abc2697a1fc8b9f7ec1b"
+    },
+    {
+      "path": "surface-00.f32.gz",
+      "bytes": 14450,
+      "sha256": "392c8771fd9b4c1c092e2672ddd6095cba62af6a07def74c39e27c01d01b4959"
+    },
+    {
+      "path": "surface-03.f32.gz",
+      "bytes": 60866,
+      "sha256": "a0732088b362dc95eb7538918a598596edc26c5f06cc695a009d312291d52563"
+    },
+    {
+      "path": "surface-01.f32.gz",
+      "bytes": 14643,
+      "sha256": "9eec34ab362d2fe4af1dfc483d3c8bc04af514e6e6f1f22efc5b6b59344c29f3"
+    },
+    {
+      "path": "surface-04.f32.gz",
+      "bytes": 70927,
+      "sha256": "59ff55c8ae9421f2579f88f82f80855ca394c4d9a35605a8273fd59b0732d2f8"
+    },
+    {
+      "path": "surface-02.f32.gz",
+      "bytes": 10366,
+      "sha256": "3676b6651c2d1646fc5f6c86d72dc2ba14d8179bc2c9beaa550876b4dec23842"
+    },
+    {
+      "path": "surface-15.f32.gz",
+      "bytes": 79072,
+      "sha256": "ec033205c738373387aba27ebb76b0cccc82682bbcd2bfd195dd951fb2199397"
+    },
+    {
+      "path": "landscape-source.json.gz",
+      "bytes": 370025,
+      "sha256": "28e9c21e5dfca90c7f6b4053c1d612f1ce94a5d8b0bd1ea4ded0fccd67794bc4"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "overview": {
+    "label": "Overview",
+    "title": "Urban Geometry",
+    "description": "A shared 3D representation of the London corridor, providing spatial context for urban simulation and scenario exploration.",
+    "note": "Shared city geometry for the London corridor.",
+    "links": [
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/model/src/urban_geometry/README.md"
+      ]
+    ]
+  },
+  "whiteCity": {
+    "label": "White City campus",
+    "title": "White City Campus Geometry",
+    "description": "A detailed campus scene connecting landmark buildings, surrounding urban geometry and indoor environments.",
+    "note": "Campus buildings share the city coordinate system.",
+    "links": [
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/model/src/urban_geometry/README.md"
+      ]
+    ]
+  },
+  "interior": {
+    "label": "I-HUB Interior",
+    "title": "LiteReality-Agent",
+    "description": "An authored concept office inside the White City I-HUB building, connected to the surrounding city through an outdoor-to-indoor camera journey.",
+    "note": "Concept office layout, not a measured reconstruction. Related project: LiteReality-Agent.",
+    "links": [
+      [
+        "Model / project",
+        "https://litereality.github.io/agent/"
+      ],
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/scenario/imperial_corridor_8km/presentation/README.md"
+      ]
+    ]
+  },
+  "londonTube": {
+    "label": "London Tube",
+    "title": "Underground Network and Station Geometry",
+    "description": "Explore London's underground network and 53 representative station environments, with timetable-based train movement in the network view.",
+    "note": "53 representative station environments. Interior sections and depths include assumptions; train movement is timetable-based.",
+    "links": [
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/visualizer/README.md"
+      ]
+    ]
+  },
+  "traffic": {
+    "label": "Traffic",
+    "title": "SUMO Microscopic Traffic Simulation",
+    "description": "Recorded vehicle trajectories and signal states from a SUMO simulation, using an OSM-derived road network and synthetic traffic demand.",
+    "note": "Recorded SUMO trajectories and signal states; road controls and traffic demand are illustrative.",
+    "links": [
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/model/traffic/demo/README.md"
+      ]
+    ]
+  },
+  "uavs": {
+    "label": "UAVs",
+    "title": "WavePDE",
+    "description": "Wave-equation-based UAV route planning through urban geometry.",
+    "note": "Precomputed routes for 100 synthetic stations. Fleet scheduling and collision avoidance are not part of this replay.",
+    "links": [
+      [
+        "Model / project",
+        "https://github.com/RAMU-5/WavePde-UAV-Path-Model"
+      ],
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/model/src/uav_routing/README.md"
+      ]
+    ]
+  },
+  "wind": {
+    "label": "Wind",
+    "title": "SCALED",
+    "description": "A scalable generative model for computational physics, used to generate urban wind fields conditioned on building geometry.",
+    "note": "100 recorded speed-magnitude samples on a 16 m display grid.",
+    "links": [
+      [
+        "Model / project",
+        "https://github.com/acse-yl222/SCALED-Scalable-Generative-Foundational-Model-for-Computational-Physics"
+      ],
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/model/src/urban_flow/physics/wind/scaled_latent.py"
+      ]
+    ]
+  },
+  "temp": {
+    "label": "Temperature",
+    "title": "GPU-based PyTorch Temperature Solver",
+    "description": "A GPU-based PyTorch solver for temperature transport through wind advection, diffusion and surface heat exchange.",
+    "note": "11 recorded frames on a 32 m grid, at 8 m height.",
+    "links": [
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/model/temperature/README.md"
+      ]
+    ]
+  },
+  "solar": {
+    "label": "Sunlight",
+    "title": "GPU-based PyTorch Solar Solver",
+    "description": "A GPU-based PyTorch solver for clear-sky solar irradiance and building shadows throughout the day.",
+    "note": "100 samples for 21 June on an 8 m grid. Clear-sky conditions; playback starts in daylight.",
+    "links": [
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/model/solar/shadow/README.md"
+      ]
+    ]
+  },
+  "poll": {
+    "label": "Pollution",
+    "title": "GPU-based PyTorch Pollution Solver",
+    "description": "A GPU-based PyTorch solver for traffic-emission transport and dispersion through urban wind fields.",
+    "note": "100 frames on an 8 m grid. Conditional exhaust PMx increment, not observed total PM2.5. Some source mass is excluded in this partial-source preview.",
+    "links": [
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/model/pollution/traffic_transient/README.md"
+      ]
+    ]
+  },
+  "flood": {
+    "label": "Flooding",
+    "title": "LISFLOOD-FP \u00b7 Xuan et al., 2026",
+    "description": "Surface-water depth during a three-hour rainfall scenario, simulated with LISFLOOD-FP.",
+    "note": "100 recorded frames over three hours on an 8 m pooled display grid. The linked paper describes related methodology, not this London experiment.",
+    "links": [
+      [
+        "Model / project",
+        "https://www.nature.com/articles/s44304-026-00186-8"
+      ],
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/scenario/imperial_corridor_8km/README.md"
+      ]
+    ]
+  },
+  "cosmosVideo": {
+    "label": "Cosmos3-Super: Video generation",
+    "title": "Generative Scene Rendering",
+    "description": "Cosmos3-Super transforms Canopy-derived visual inputs into illustrative rendered videos.",
+    "note": "Pre-generated illustrative video, not a quantitative physics result.",
+    "links": [
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/visualizer/site/viewer/demos/provenance.json"
+      ]
+    ]
+  },
+  "cosmosText": {
+    "label": "Cosmos3-Super: Text modification",
+    "title": "Language-Guided Scene Editing",
+    "description": "Natural-language instructions are translated into validated scene-editing code to modify building geometry and appearance.",
+    "note": "Recorded code edits and undo. Geometry changes do not recompute physics.",
+    "links": [
+      [
+        "Readme",
+        "https://github.com/CANOPY-WORLD/canopy/blob/main/visualizer/site/viewer/demos/provenance.json"
+      ]
+    ]
+  }
+}
